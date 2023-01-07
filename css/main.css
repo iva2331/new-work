@@ -1,13 +1,14 @@
-{
+*{
     margin: 0;
 }
 .container{
-    width: 1170px;
+    width: 1270px;
     margin: 0 auto;
 }
 .header{
     background: url('../image/header-bg.png') no-repeat center top / cover;
-    
+    padding-top: 30px;
+    height: 900px;
 
 }
 body{
@@ -26,4 +27,95 @@ ul, li{
     display: block;
     padding: 0;
     margin: 0;
+}
+header a{
+    color: #FFF;
+}
+.menu {
+    display: flex;
+}
+.menu li a{
+    text-transform: uppercase; /* делает все буквы заглавными*/
+    text-decoration: none;  /*убирает подчеркивание*/
+    letter-spacing: 0.1em;
+    
+}
+.menu li{
+    margin-right: 40px;
+
+}
+.tel{
+    font-size: 17px  ;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    margin-right: 69px;
+}
+.ticket{
+    margin-top: 321px;
+   margin-left: 100px;
+}
+.but{
+    display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+	transition: all 0.5s ease;
+    text-decoration: none;
+}
+p{
+    color: #FFF;
+    font-size: 30px;
+}
+h1{
+    font-size: 100px;
+    color: #FFF;
+}
+.info{
+    display: flex;
+}
+.info p{
+    font-family: 'Open sans';
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    margin-right: 36px;
+}
+h2{
+    padding-top: 125px;
+}
+.info{
+    margin-top: 74px;
+}
+.info h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.photo img
+{
+   margin-right: 30px;
+   margin-top: 84px;
+
+}
+.under {
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	padding: 114px 0;
+}
+
+.under p{
+    margin-right: 67px;
+    color: #000;
+    font-size: 15px;
 }
